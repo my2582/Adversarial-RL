@@ -24,7 +24,7 @@ Two RL agents found out how to make handsome profits in the end.
 
 
 
-### PG agenst with transaction cost of _100bp_
+### PG agents with transaction cost of _100bp_
 Two RL agents have managed to reserve their money in this extreme trading environment.
 
 ![tc_100](./PG_value_100bp.png)
