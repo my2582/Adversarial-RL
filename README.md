@@ -8,6 +8,18 @@ In this paper, we created a *virtual stock exchange* where multiple agents inves
 
 We present an approach of which algorithms the RL agents are based on, how we set our environment, and how a virtual stock exchange was constructed. We used Deep Neural Network(DNN) to represent the Actor-Critic network, which takes an input of stock prices and portfolio weights and outputs a vector of portfolio weights. RL agents’ actions are concretely implemented by placing orders and they do not know how their states would be until the orders are matched. We introduced non-RL agents, one of which, namely a mean-reversion agent, is in favor of our market environment in its strategy, and the other of which, namely a random agent, is to model the irrational behaviors of the real stock market. We end this paper with experimental analysis and future work.
 
-# Results
+## Experimental Results
 
-## Policy Gradient(PG) agent with transaction cost of 0bp
+### Policy Gradient(PG) agent with transaction cost of 0bp
+Everyone looks happy.
+![tc_0](./PG_value_0bp.png)
+
+
+### PG agent with transaction cost of 5bp
+Two RL agents found out how to make handsome profits in the end.
+![tc_5](./PG_value_5bp.png)
+
+
+### PG agent with transaction cost of 100bp
+Two RL agents have managed to reserve their money in this extreme trading environment.
+![tc_100](./PG_value_100bp.png)
