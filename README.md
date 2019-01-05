@@ -10,16 +10,16 @@ We present an approach of which algorithms the RL agents are based on, how we se
 
 ## Experimental Results
 
-### Policy Gradient(PG) agent with transaction cost of 0bp
+### Policy Gradient(PG) agents with transaction cost of _0bp_
 Everyone looks happy.
 ![tc_0](./PG_value_0bp.png)
 
 
-### PG agent with transaction cost of 5bp
+### PG agents with transaction cost of _5bp_
 Two RL agents found out how to make handsome profits in the end.
 ![tc_5](./PG_value_5bp.png)
 
 
-### PG agent with transaction cost of 100bp
+### PG agenst with transaction cost of _100bp_
 Two RL agents have managed to reserve their money in this extreme trading environment.
 ![tc_100](./PG_value_100bp.png)
