@@ -3,6 +3,9 @@ A final project for E6885 _Reinforcement Learning_, Fall 2018, Columbia Universi
 
 A full version of the final report in a form of paper can be found [here](./RL_Final_Report_v2.pdf)
 
+
+[embed]https://github.com/my2582/Adversarial-RL/raw/master/RL_Final_Report_v2.pdf[/embed]
+
 # Abstract
 In this paper, we created a *virtual stock exchange* where multiple agents invest in stocks against each other. Three of the agents implemented their own strategies based on different Reinforcement Learning (RL) algorithms. *No historical data was used* to train these RL agents. RL agents are given cash only and do not have any stocks at an initialization phase. Trading environments were designed in a way they accommodate realistic factors such as liquidity costs (buy expensive, sell cheap due to little orders that can be matched), transaction costs, and a management fee. We achieved this by introducing a sophisticated framework that admits the complex nature of the trading environment in the real world.
 
